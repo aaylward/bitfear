@@ -18,7 +18,7 @@
     let output = document.getElementById("target-area");
     area.addEventListener("keypress", (e) => {
       console.log(e.code);
-      const text = area.innerText;
+      const text = area.value;
       console.log(text);
       output.innerText = text;
     })
