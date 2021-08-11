@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" />
     <title>Hello BitFear</title>
   </head>
   <body>
-    <div>~~</div>
     <div>
       <textarea id="source-area" rows="10" cols="100"></textarea>
     </div>
@@ -13,14 +13,5 @@
     </div>
 
   </body>
-  <script>
-    let area = document.getElementById("source-area");
-    let output = document.getElementById("target-area");
-    area.addEventListener("keyup", (e) => {
-      console.log(e.code);
-      const text = area.value;
-      console.log(text);
-      output.innerText = text;
-    })
-  </script>
+  <script src="app.js"></script>
 </html>
