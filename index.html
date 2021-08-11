@@ -16,7 +16,7 @@
   <script>
     let area = document.getElementById("source-area");
     let output = document.getElementById("target-area");
-    area.addEventListener("keypress", (e) => {
+    area.addEventListener("keyup", (e) => {
       console.log(e.code);
       const text = area.value;
       console.log(text);
