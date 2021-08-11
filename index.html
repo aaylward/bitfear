@@ -15,8 +15,10 @@
   </body>
   <script>
     let area = document.getElementById("source-area");
-    area.addEventListener("change", (event) => {
-      console.log(event);
-    });
+    let output = document.getElementById("target-area");
+    area.onkeydown = function(e) {
+      const text = area.innerText;
+      output.innerText = text;
+    };
   </script>
 </html>
