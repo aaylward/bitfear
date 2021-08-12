@@ -1,5 +1,6 @@
 #target-area {
-  border: 1px solid #eee;
+  margin-top: 20px;
   width: 800px;
   height: 300px;
+  font-family: monospace;
 }
